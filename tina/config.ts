@@ -46,6 +46,9 @@ export default defineConfig({
             label: "Body",
             isBody: true,
           },
+
+
+          
         ],
       },
     ],

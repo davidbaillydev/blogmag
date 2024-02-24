@@ -60,6 +60,12 @@ export default defineConfig({
           },
 
           {
+            name: 'tranding',
+            label: 'tranding',
+            type: 'boolean',
+          },
+
+          {
             type: "string",
             name: "readTime",
             label: "readTime",

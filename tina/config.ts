@@ -53,9 +53,9 @@ export default defineConfig({
             label: 'Tags',
             description: 'Tags for this post',
             // list: true,
-            // ui: {
-            //   component: 'tags',
-            // }
+            ui: {
+              component: 'tags',
+            }
         
           },
 

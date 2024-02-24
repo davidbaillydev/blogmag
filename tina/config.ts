@@ -58,14 +58,13 @@ export default defineConfig({
             }
         
           },
-        
-          {
-            type: "rich-text",
-            name: "body",
-            label: "Body",
-            isBody: true,
-          },
 
+          {
+            type: "string",
+            name: "readTime",
+            label: "readTime",
+          },
+        
           {
             type: 'image',
             label: 'thumbnail',
@@ -77,6 +76,14 @@ export default defineConfig({
             label: 'featureImage',
             name: 'featureImage',
           },
+
+          {
+            type: "rich-text",
+            name: "body",
+            label: "Body",
+            isBody: true,
+          },
+
 
           
         ],

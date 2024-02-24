@@ -40,12 +40,22 @@ export default defineConfig({
             isTitle: true,
             required: true,
           },
+
+          {
+            type: 'datetime',
+            label: 'Date',
+            name: 'date',
+          
+          },
           {
             type: "rich-text",
             name: "body",
             label: "Body",
             isBody: true,
           },
+
+
+
         ],
       },
     ],

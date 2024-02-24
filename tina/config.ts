@@ -40,6 +40,25 @@ export default defineConfig({
             isTitle: true,
             required: true,
           },
+
+          {
+            type: 'datetime',
+            name: 'date',
+            label: 'Date',
+          },
+          
+          {
+            type: 'string',
+            name: 'tags',
+            label: 'Tags',
+            description: 'Tags for this post',
+            list: true,
+            ui: {
+              component: 'tags',
+            }
+        
+          },
+        
           {
             type: "rich-text",
             name: "body",
@@ -47,6 +66,17 @@ export default defineConfig({
             isBody: true,
           },
 
+          {
+            type: 'image',
+            label: 'thumbnail',
+            name: 'thumbnail',
+          },
+
+          {
+            type: 'image',
+            label: 'featureImage',
+            name: 'featureImage',
+          },
 
           
         ],

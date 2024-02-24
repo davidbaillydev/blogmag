@@ -40,19 +40,6 @@ export default defineConfig({
             isTitle: true,
             required: true,
           },
-
-          {
-            type: 'datetime',
-            label: 'Date',
-            name: 'date',
-          
-          },
-          {
-            label: 'Tags',
-            name: 'tags',
-            type: 'string',
-            list: true,
-          },
           {
             type: "rich-text",
             name: "body",
@@ -61,7 +48,7 @@ export default defineConfig({
           },
 
 
-
+          
         ],
       },
     ],

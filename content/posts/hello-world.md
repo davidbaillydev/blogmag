@@ -1,7 +1,7 @@
 ---
 title: Destinations de voyage
 date: 2024-02-22T23:00:00.000Z
-tags: Politique
+tags: politique
 tranding: true
 readTime: 10 min
 thumbnail: /images/blog/post-9.png

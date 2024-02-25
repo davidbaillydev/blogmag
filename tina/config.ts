@@ -65,11 +65,11 @@ export default defineConfig({
             type: 'boolean',
           },
 
-          // {
-          //   name: 'featured',
-          //   label: 'featured',
-          //   type: 'boolean',
-          // },
+          {
+            name: 'featured',
+            label: 'featured',
+            type: 'boolean',
+          },
 
           {
             type: "string",

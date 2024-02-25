@@ -8,7 +8,7 @@ const branch =
   "main";
 
 export default defineConfig({
-  branch,
+  branch : "master",
 
   // Get this from tina.io
   clientId: "6597cfc6-ab64-4732-9a63-16d64864d846",
@@ -40,14 +40,61 @@ export default defineConfig({
             isTitle: true,
             required: true,
           },
+
+          {
+            type: 'datetime',
+            name: 'date',
+            label: 'Date',
+          },
+          
+          {
+            type: 'string',
+            name: 'tags',
+            label: 'Tags',
+            description: 'Tags for this post',
+            // list: true,
+            ui: {
+              component: 'tags',
+            }
+        
+          },
+
+          {
+            name: 'tranding',
+            label: 'tranding',
+            type: 'boolean',
+          },
+
+          {
+            type: "string",
+            name: "readTime",
+            label: "readTime",
+          },
+        
+          {
+            type: 'image',
+            label: 'thumbnail',
+            name: 'thumbnail',
+          },
+
+          {
+            type: 'image',
+            label: 'featureImage',
+            name: 'featureImage',
+          },
+
           {
             type: "rich-text",
             name: "body",
             label: "Body",
             isBody: true,
           },
+
+
+          
         ],
       },
     ],
   },
 });
+

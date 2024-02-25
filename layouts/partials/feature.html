@@ -8,7 +8,7 @@
           <div class="featured-post-content">
             <div class="featured-post-author">
               <img src="{{ $.Site.Params.authorThumb | absURL }}" alt="author" />
-              <p>By <a href={{ "about" | absURL }}>{{ $.Site.Params.author }}</a></p>
+              <p>Par <a href={{ "about" | absURL }}>{{ $.Site.Params.author }}</a></p>
             </div>
             <a href="{{ .Permalink }}" class="featured-post-title">
               {{ .Title }}
@@ -16,7 +16,7 @@
             <ul class="featured-post-meta">
               <li>
                 <i class="fa fa-clock-o"></i>
-                {{ .PublishDate.Format "January 2, 2006" }} - {{ .Params.readTime }} read
+                {{ .PublishDate.Format "January 2, 2006" }} - {{ .Params.readTime }} Lire plus
               </li>
             </ul>
           </div>

@@ -66,6 +66,12 @@ export default defineConfig({
           },
 
           {
+            name: 'featured',
+            label: 'featured',
+            type: 'boolean',
+          },
+
+          {
             type: "string",
             name: "readTime",
             label: "readTime",

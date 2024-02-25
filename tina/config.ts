@@ -65,12 +65,6 @@ export default defineConfig({
             type: 'boolean',
           },
 
-          // {
-          //   name: 'featured',
-          //   label: 'featured',
-          //   type: 'boolean',
-          // },
-
           {
             type: "string",
             name: "readTime",
